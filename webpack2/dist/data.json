@@ -1,0 +1,95 @@
+{
+  "entity": [
+    {
+      "label": "Employee",
+      "id": "employee"
+    },
+    {
+      "label": "Organization",
+      "id": "organization"
+    },
+    {
+      "label": "Company",
+      "id": "company"
+    }
+  ],
+  "combinator": ["AND", "OR"],
+  "attribute": [
+    {
+      "employee": [
+        "EMP_STRING",
+        "EMP_NUMBER",
+        "EMP_DATE",
+        "EMP_BOOLEAN",
+        "EMP_ENUM"
+      ]
+    },
+    {
+      "organization": [
+        "ORG_STRING",
+        "ORG_NUMBER",
+        "ORG_DATE",
+        "ORG_BOOLEAN",
+        "ORG_ENUM"
+      ]
+    },
+    {
+      "company": [
+        "COM_STRING",
+        "COM_NUMBER",
+        "COM_DATE",
+        "COM_BOOLEAN",
+        "COM_ENUM"
+      ]
+    }
+  ],
+  "operator": {
+    "in": "In",
+    "not_in": "Not In",
+    "equals": "Equals",
+    "does_not_equal": "Does Not Equal",
+    "greater_than": "Greater Than",
+    "less_than": "Less Than",
+    "less_than_or_equal": "Less Than Or Equal",
+    "greater_than_or_equal": "Greater Than Or Equal",
+    "like": "Like",
+    "not_like": "Not Like",
+    "contains": "Contains",
+    "starts_with": "Starts With",
+    "ends_with": "Ends With"
+  },
+  "enum": [
+    "DZD",
+    "USD",
+    "EUR",
+    "AOA",
+    "XCD",
+    "ARS",
+    "AMD",
+    "AWG",
+    "AUD",
+    "AZN",
+    "BSD",
+    "BHD",
+    "BDT"
+  ],
+  "copy": {
+    "panel": {
+      "heading": "Filter"
+    },
+    "filter": {
+      "attributePlaceholder": "Attribute",
+      "operatorPlaceholder": "Operator",
+      "boolean": {
+        "true": {
+          "id": "true",
+          "label": "True"
+        },
+        "false": {
+          "id": "false",
+          "label": "False"
+        }
+      }
+    }
+  }
+}

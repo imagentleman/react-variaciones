@@ -1,0 +1,11 @@
+{
+  "name": "query-builder-in-browser",
+  "version": "0.1.0",
+  "authors": ["José Antonio Chio <jose.chio@prodigious.com>"],
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/server.js"
+  }
+}
